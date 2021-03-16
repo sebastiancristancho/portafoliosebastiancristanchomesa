@@ -1,0 +1,1397 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Indie+Flower&display=swap");
+
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+
+
+
+header{
+    width: 100%;
+    position: relative;
+    display: block;
+    background:url(../img/INICIO-BG.jpg) no-repeat; 
+    background-size: 100%;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+header .firma{
+    padding-top: 400px;
+    text-align: center;
+}
+
+header .container nav ul{
+    display: inline-block;
+}
+
+header .container nav ul li {
+    padding-bottom: 50px;
+    display: inline-block;
+    
+}
+
+#btn-elemento{
+    position: fixed;
+    z-index: 11;
+    top: 192px;
+    right: -44px;
+    transform: rotate(-90deg);
+    background: #495057;
+    color: #fff;
+    padding: 3px 31px;
+    border-radius: 15px 15px 0px 0px;
+    border: none;
+    transition: 0.5s;
+    outline: none;
+}
+
+#btn-elemento.active{
+    right: 105px;
+    transition: 0.5s;
+}
+
+#cont-colors{
+    background: #919292;
+    position: fixed;
+    z-index: 11;
+    right: -149px;
+    top: 150px;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+#cont-colors #blanco{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-color: #495057;
+    outline: none;
+}
+
+#cont-colors #azul{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-color: #495057;
+    background: #163179;
+    outline: none;
+}
+
+#cont-colors #dorado{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-color: #495057;
+    background: #f6b418;
+    outline: none;
+}
+
+#cont-colors h3{
+    font-size: 18px;
+    color: #1c1c1c;
+    margin-bottom: 20px;
+}
+
+#cont-colors.active{
+    right: 0;
+    transform: 0.5s;
+}
+
+/* VARIANTES DE TEMAS */
+/* blanco */
+#body.blanco header{
+    width: 100%;
+    position: relative;
+    display: block;
+    background:url(../img/INICIO-BG-1.jpg) no-repeat; 
+    background-size: 100%;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+#body.blanco #perfil {
+    background: url(../img/SOY-BG-1.png) no-repeat;
+    width: 100%;
+    position: relative;
+    display: block;
+    padding-bottom: 53px;
+    padding-top: 40px;
+    color: #ffffff;
+    background-size: 100%;
+}
+
+#body.blanco #btn-elemento{
+    background: #fff;
+}
+#body.blanco #btn-elemento.active{
+    color: black;
+}
+
+#body.blanco #perfil p{
+    color: black;
+}
+
+#body.blanco #destrezas {
+    width: 100%;
+    position: relative;
+    display: block;
+    padding-bottom: 70px;
+    color: #ffffff;
+    background: url(../img/DESTREZAS-BG-1.png) no-repeat;
+    background-size: 100%;
+}
+
+
+#body.blanco #experiencia {
+    width: 100%;
+    position: relative;
+    display: block;
+    padding-bottom: 251px;
+    color: #ffffff;
+    background: url(../img/EXPERIENCIA-BG-1.png) no-repeat;
+    background-size: 100%;
+}
+
+
+#body.blanco #experiencia H2{
+    color: black;
+}
+
+#body.blanco #experiencia p{
+    color: black;
+}
+
+#body.blanco #experiencia .juani{
+    color: black;
+}
+
+
+#body.blanco #educacion{
+    width: 100%;
+    position: relative;
+    display: block;
+    padding-bottom: 131px;
+    color: #ffffff;
+    background: url(../img/EDUCACION-BG-1.png) no-repeat;
+    background-size: 100%;
+}
+
+#body.blanco #educacion h2{
+    color: black;
+}
+
+#body.blanco #educacion h4{
+    color: black;
+}
+
+#body.blanco #educacion p{
+    color: black;
+}
+
+#body.blanco #educacion .cole{
+    color: black;
+}
+
+#body.blanco #educacion .acade{
+    color: black;
+}
+
+
+#body.blanco #trabajos{
+    width: 100%;
+    position: relative;
+    display: block;
+    padding-bottom: 0px;
+    color: #ffffff;
+    background: url(../img/TRABAJOS-BG-1.jpg) no-repeat;
+    background-size: 100%;
+}
+
+#body.blanco #trabajos h3{
+    color: white;
+}
+
+#body.blanco #trabajos h2{
+    color: black;
+}
+
+#body.blanco #trabajos .container nav ul li a{
+    color: black;
+}
+
+#body.blanco footer{
+    background-color: #f4f2f1
+}
+
+#body.blanco footer h5{
+    color: black;
+}
+
+#body.blanco footer h6{
+    color: black;
+}
+
+
+
+/* azul */
+
+#body.azul #btn-elemento{
+    background: #15327a;
+}
+#body.azul #btn-elemento.active{
+    color: white;
+}
+
+#body.azul header{
+    width: 100%;
+    position: relative;
+    display: block;
+    background:url(../img/INICIO-BG-2.jpg) no-repeat; 
+    background-size: 100%;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+#body.azul #perfil {
+    background: url(../img/SOY-BG-2.jpg) no-repeat;
+    width: 100%;
+    position: relative;
+    display: block;
+    padding-bottom: 53px;
+    padding-top: 40px;
+    color: #ffffff;
+    background-size: 100%;
+}
+
+
+
+#body.azul  #perfil p{
+    color: white;
+}
+
+#body.azul  #destrezas {
+    width: 100%;
+    position: relative;
+    display: block;
+    padding-bottom: 70px;
+    color: #ffffff;
+    background: url(../img/DESTREZAS-BG-2.jpg) no-repeat;
+    background-size: 100%;
+}
+
+
+#body.azul  #experiencia {
+    width: 100%;
+    position: relative;
+    display: block;
+    padding-bottom: 251px;
+    color: #ffffff;
+    background: url(../img/EXPERIENCIA-BG-2.jpg) no-repeat;
+    background-size: 100%;
+}
+
+
+#body.azul  #experiencia H2{
+    color: white;
+}
+
+#body.azul  #experiencia p{
+    color: white;
+}
+
+#body.azul  #experiencia .juani{
+    color: white;
+}
+
+
+#body.azul  #educacion{
+    width: 100%;
+    position: relative;
+    display: block;
+    padding-bottom: 131px;
+    color: #ffffff;
+    background: url(../img/EDUCACION-BG-2.jpg) no-repeat;
+    background-size: 100%;
+}
+
+#body.azul  #educacion h2{
+    color: white;
+}
+
+#body.azul  #educacion h4{
+    color: white;
+}
+
+#body.azul #educacion p{
+    color: white;
+}
+
+#body.azul  #educacion .cole{
+    color: white;
+}
+
+#body.azul  #educacion .acade{
+    color: white;
+}
+
+
+#body.azul  #trabajos{
+    width: 100%;
+    position: relative;
+    display: block;
+    padding-bottom: 0px;
+    color: #ffffff;
+    background: url(../img/TRABAJOS-BG-2.jpg) no-repeat;
+    background-size: 100%;
+}
+
+#body.azul  #trabajos h3{
+    color: white;
+}
+
+#body.azul  #trabajos h2{
+    color: rgb(65, 60, 60);
+}
+
+#body.azul  #trabajos .container nav ul li a{
+    color: white;
+}
+
+#body.azul  footer{
+    background-color: #163179
+}
+
+#body.azul  footer h5{
+    color: white;
+}
+
+#body.azul  footer h6{
+    color: white;
+}
+
+
+
+/* dorado */
+
+#body.dorado #btn-elemento{
+    background: #f6b424;
+}
+#body.dorado #btn-elemento.active{
+    color: black;
+}
+
+#body.dorado header{
+    width: 100%;
+    position: relative;
+    display: block;
+    background:url(../img/INICIO-BG-3.jpg) no-repeat; 
+    background-size: 100%;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+#body.dorado #perfil {
+    background: url(../img/SOY-BG-3.jpg) no-repeat;
+    width: 100%;
+    position: relative;
+    display: block;
+    padding-bottom: 53px;
+    padding-top: 40px;
+    color: #ffffff;
+    background-size: 100%;
+}
+
+
+
+#body.dorado  #perfil p{
+    color: black;
+}
+
+#body.dorado  #destrezas {
+    width: 100%;
+    position: relative;
+    display: block;
+    padding-bottom: 70px;
+    color: #ffffff;
+    background: url(../img/DESTREZAS-BG-3.jpg) no-repeat;
+    background-size: 100%;
+}
+
+
+#body.dorado  #experiencia {
+    width: 100%;
+    position: relative;
+    display: block;
+    padding-bottom: 251px;
+    color: #ffffff;
+    background: url(../img/EXPERIENCIA-BG-3.jpg) no-repeat;
+    background-size: 100%;
+}
+
+
+#body.dorado  #experiencia H2{
+    color: black;
+}
+
+#body.dorado  #experiencia p{
+    color: black;
+}
+
+#body.dorado  #experiencia .juani{
+    color: black;
+}
+
+
+#body.dorado  #educacion{
+    width: 100%;
+    position: relative;
+    display: block;
+    padding-bottom: 131px;
+    color: #ffffff;
+    background: url(../img/EDUCACION-BG-3.jpg) no-repeat;
+    background-size: 100%;
+}
+
+#body.dorado  #educacion h2{
+    color: black;
+}
+
+#body.dorado  #educacion h4{
+    color: black;
+}
+
+#body.dorado #educacion p{
+    color: black;
+}
+
+#body.dorado  #educacion .cole{
+    color: black;
+}
+
+#body.dorado  #educacion .acade{
+    color: black;
+}
+
+
+#body.dorado  #trabajos{
+    width: 100%;
+    position: relative;
+    display: block;
+    padding-bottom: 0px;
+    color: #ffffff;
+    background: url(../img/TRABAJOS-BG-3.jpg) no-repeat;
+    background-size: 100%;
+}
+
+#body.dorado  #trabajos h3{
+    color: white;
+}
+
+#body.dorado  #trabajos h2{
+    color: rgb(65, 60, 60);
+}
+
+#body.dorado  #trabajos .container nav ul li a{
+    color: black;
+}
+
+#body.dorado  footer{
+    background-color: #f6b418
+}
+
+#body.dorado  footer h5{
+    color: black;
+}
+
+#body.dorado  footer h6{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  
+header nav ul  {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+  }*/
+
+/* INICIO PERFIL */
+#perfil{
+    width: 100%;
+    position: relative;
+    display: block;
+    padding-bottom: 53px;
+    padding-top: 40px;
+    color: #ffffff;
+    background: url(../img/SOY-BG.png) no-repeat;
+    background-size: 100%;
+
+}
+
+#perfil h3{
+    font-size: 48px;
+    padding-top: 206px;
+    padding-left: 180px;
+    color: #040006;
+    transition: .5s;
+}
+
+#perfil h3:hover{
+    color: #ffffff;
+}
+
+#perfil p{
+    font-size: 23px;
+    text-align: center;
+    display: inline-block;
+    padding-top: 88px;
+   
+}
+
+#perfil img{
+    display: inline;
+    margin-top: 30px;
+}
+
+/* INICIO DESTREZAS */
+
+#destrezas {
+    width: 100%;
+    position: relative;
+    display: block;
+    padding-bottom: 70px;
+    color: #ffffff;
+    background: url(../img/DESTREZAS-BG.png) no-repeat;
+    background-size: 100%;
+}
+
+#destrezas h3{
+    font-size: 48px;
+    padding-top: 75px;
+    padding-left: 618px;
+    color: #ffffff;
+}
+
+#destrezas .logo1{
+    padding-top: 80px;
+    padding-left: 155px;
+    transition: .5s;
+}
+
+#destrezas img:hover{
+    border-bottom: 2px solid #85B044
+}
+
+#destrezas .logo2{
+    padding-top: 51px;
+    padding-left: 155px;
+}
+
+#destrezas .logo3{
+    padding-top: 46px;
+    padding-left: 155px;
+}
+
+#destrezas .logo4{
+    padding-top: 46px;
+    padding-left: 155px;
+}
+
+#destrezas .logo5{
+    padding-top: 46px;
+    padding-left: 160px;
+}
+
+#destrezas .logo6{
+    padding-top: 140px;
+    padding-left: 50px;
+}
+#destrezas .logo7{
+    padding-top: 46px;
+    padding-left: 50px;
+}
+#destrezas .logo8{
+    padding-top: 46px;
+    padding-left: 50px;
+}
+#destrezas .logo9{
+    padding-top: 46px;
+    padding-left: 50px;
+}
+
+
+/* INICIO EXPERIENCIA*/
+#experiencia {
+    width: 100%;
+    position: relative;
+    display: block;
+    padding-bottom: 251px;
+    color: #ffffff;
+    background: url(../img/EXPERIENCIA-BG.png) no-repeat;
+    background-size: 100%;
+}
+    
+#experiencia h3{
+    font-size: 48px;
+    padding-top: 75px;
+    padding-left: 618px;
+    color: #ffffff;
+}
+
+#experiencia h2{
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 93px;
+}
+
+#experiencia .juani{
+    text-align: center;
+    margin-top: -28px;
+    margin-left: 96px;
+}
+
+#experiencia p{
+    margin-top: 74px;
+    margin-left: 47px;
+}
+
+
+/* INICIO EDUCACION*/
+#educacion {
+    width: 100%;
+    position: relative;
+    display: block;
+    padding-bottom: 131px;
+    color: #ffffff;
+    background: url(../img/EDUCACION-BG.png) no-repeat;
+    background-size: 100%;
+}
+
+#educacion h3{
+    font-size: 48px;
+    padding-top: 75px;
+    padding-left: 618px;
+    color: #ffffff;
+}
+
+#educacion h2{
+    text-align: center;
+    margin-top: 93px;
+}
+
+#educacion h4{
+    text-align: center;
+    margin-top: 107px;
+}
+
+#educacion .cole{
+    text-align: center;
+    margin-top: -34px;
+}
+
+#educacion .acade{
+    text-align: center;
+    margin-top: -34px;
+}
+
+#educacion p{
+    margin-top: 72px;
+    margin-left: -45px;
+}
+
+
+
+/* INICIO TRABAJOS */
+#trabajos {
+    width: 100%;
+    position: relative;
+    display: block;
+    padding-bottom: 0px;
+    color: #ffffff;
+    background: url(../img/TRABAJOS-BG.png) no-repeat;
+    background-size: 100%;
+}
+
+#trabajos h3{
+    font-size: 48px;
+    padding-top: 108PX;
+    padding-left: 618px;
+    color: #ffffff;
+}
+
+#trabajos .container nav{
+    display: flex;
+    margin-top: 81px;
+    margin-left: 323px;
+}
+#trabajos .container nav ul{
+    width: 100%;
+    display: inline-block;
+    text-align: right;
+    font-size: 22px;
+}
+#trabajos .container nav ul li{
+    display: inline-block;
+    margin: 0 14px;
+}
+#trabajos .container nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    transition: .5s;
+}
+
+#trabajos .container nav ul li a:hover{
+    color: #F6B31B;
+    border-bottom: 2px solid transparent
+}
+
+#trabajos img:hover{
+    border-bottom: 2px solid transparent
+}
+
+
+#trabajos .container .nav {
+    margin-top: -11px;
+    margin-left: -149px;
+}
+
+.nav-tabs {
+    border-bottom: 0px solid transparent;
+}
+
+#trabajos .container .nav a.active{
+    background: #F6B31B;
+    color: black;
+    
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: #fff;
+    border-color: transparent;
+}
+
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -15px;
+    left: 0;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 74px;
+}
+
+video{
+    width: 693px;
+    height: 390px;
+    margin-left: 209px;
+    margin-top: 36px;
+    margin-bottom: 49px;
+}
+
+/* INICIO FOOTER */
+footer{
+    background-color: #040006;
+    width: 100%;
+    position: relative;
+    display: block;
+}
+
+footer h5{
+    text-align: center;
+    color: #ffffff;
+    margin: 10px;
+    display: inline-block;
+}
+
+footer h6{
+    text-align: center;
+    color: #ffffff;
+    margin-top: 60px;
+    padding-bottom: 20px;
+}
+
+footer .insta1{
+    padding-top: 50px;
+    padding-left: 190px;
+    transition: .5s;
+}
+
+footer .insta1 :hover{
+    color: #F6B31B;
+}
+
+footer .insta2{
+    padding-left: 50px;
+}
+
+footer .gmail{
+    padding-top: 50px;
+    padding-left: 50px;
+    transition: .5s;
+}
+
+footer .wap{
+    padding-top: 50px;
+    padding-left: 50px;
+    transition: .5s;
+}
+
+footer .gmail :hover{
+    color: #F6B31B;
+}
+
+footer .wap :hover{
+    color: #F6B31B;
+}
+
+
+/* CODIGO RESPONSIVE TABLET */
+@media screen and (max-width:990px) and (min-width:768px){
+    .container .container-fluid .container-lg .container-md .container-sm .container-xl {
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    body{
+        margin: -20px;
+        text-align: center;
+    }
+
+    header {
+        width: 100%;
+        position: relative;
+        display: block;
+        background: url(../img/INICIO-BG.jpg) no-repeat;
+        background-size: 100%;
+    }
+
+    img {
+        border-style: none;
+        width: 81%;
+        margin-top: -100px;
+        margin-bottom: -24px;
+    }
+
+    .icono10 {
+        margin-top: -10px;
+        margin-left: -50px;
+    }
+    .icono11 {
+        margin-top: -10px;   
+        margin-left: -50px;
+    }
+    .icono12 {
+        margin-top: -10px;
+        margin-left: -50px;
+    }
+    .icono13 {
+        margin-top: -10px;
+        margin-left: -50px;
+    }
+    .icono14 {
+        margin-top: -10px;
+        margin-left: -50px;
+    }
+
+    header .container nav ul li {
+        padding-bottom: 16px;
+        display: table-cell;
+    }
+
+    #perfil h3 {
+        font-size: 30px;
+        padding-top: 105px;
+        color: #040006;
+        transition: .5s;
+        margin-left: -246px;
+    }
+
+    #perfil p {
+        font-size: 13px;
+        margin-top: -17px;
+        text-align: center;
+        display: inline-block;
+        padding-top: 88px;
+    }
+    #perfil img {
+        display: inline;
+        margin-top: 0px;
+        width: 227%;
+        margin-left: -46px;
+        margin-bottom: -19px;
+    }
+
+    #destrezas {
+        width: 100%;
+        position: relative;
+        display: block;
+        padding-bottom: 0px;
+        color: #ffffff;
+        background: url(../img/DESTREZAS-BG.png) no-repeat;
+        background-size: 100%;
+    }
+    #destrezas h3 {
+        font-size: 33px;
+        padding-top: 44px;
+        padding-left: 275px;
+        color: #ffffff;
+    }
+    #destrezas .logo1 {
+        padding-top: 61px;
+        padding-left: 0px;
+        transition: .5s;
+        width: 210px;
+    }
+    #destrezas .logo2 {
+        padding-top: 61px;
+        padding-left: 0px;
+        transition: .5s;
+        width: 210px;
+    }#destrezas .logo3 {
+        padding-top: 61px;
+        padding-left: 0px;
+        transition: .5s;
+        width: 210px;
+    }#destrezas .logo4 {
+        padding-top: 61px;
+        padding-left: 0px;
+        transition: .5s;
+        width: 210px;
+    }
+    #destrezas .logo5 {
+        padding-top: 61px;
+        padding-left: 0px;
+        transition: .5s;
+        width: 210px;
+    }
+    #destrezas .logo6 {
+        padding-top: 85px;
+        padding-left: 0px;
+        transition: .5s;
+        width: 210px;
+    }
+    #destrezas .logo7 {
+        padding-top: 61px;
+        padding-left: 0px;
+        transition: .5s;
+        width: 210px;
+    }
+    #destrezas .logo8 {
+        padding-top: 61px;
+        padding-left: 0px;
+        transition: .5s;
+        width: 210px;
+    }
+    #destrezas .logo9 {
+        padding-top: 61px;
+        padding-left: 0px;
+        transition: .5s;
+        width: 210px;
+    }
+
+.col-md-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+    padding-left: 100px;
+}
+
+#experiencia h3 {
+    font-size: 33px;
+    padding-top: 44px;
+    padding-left: 275px;
+    color: #ffffff;
+}
+
+#experiencia .juani {
+    text-align: center;
+    margin-top: -18px;
+    margin-left: 76px;
+    font-size: 10px;
+}
+#experiencia h2 {
+    text-align: center;
+    margin-left: 73px;
+    margin-top: 54px;
+    font-size: 18px;
+}
+
+#experiencia p {
+    margin-top: 37px;
+    margin-left: -235px;
+    font-size: 10px;
+}
+#experiencia {
+    width: 100%;
+    position: relative;
+    display: block;
+    padding-bottom: 142px;
+    color: #ffffff;
+    background: url(../img/EXPERIENCIA-BG.png) no-repeat;
+    background-size: 100%;
+}
+#educacion {
+    width: 100%;
+    position: relative;
+    display: block;
+    padding-bottom: 73px;
+    color: #ffffff;
+    background: url(../img/EDUCACION-BG.png) no-repeat;
+    background-size: 100%;
+}
+#educacion h2 {
+    text-align: center;
+    margin-left: -72px;
+    margin-top: 51px;
+    font-size: 18px;
+}
+#educacion .cole {
+    text-align: center;
+    margin-top: -28px;
+    margin-left: -68px;
+    font-size: 12px;
+}
+#educacion .acade {
+    text-align: center;
+    margin-top: -28px;
+    margin-left: -68px;
+    font-size: 12px;
+}
+#educacion h3 {
+    font-size: 33px;
+    padding-top: 53px;
+    padding-left: 275px;
+    color: #ffffff;
+}
+#educacion h4 {
+    text-align: center;
+    margin-top: 58px;
+    margin-left: -67px;
+    font-size: 13px;
+}
+#educacion p {
+    margin-top: 31px;
+    margin-left: -268px;
+    font-size: 10px;
+}
+
+#trabajos h3 {
+    font-size: 33px;
+    padding-top: 49px;
+    padding-left: 275px;
+    color: #ffffff;
+}
+#trabajos .container nav {
+    display: flex;
+    margin-top: 57px;
+    margin-left: 10px;  
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 160px;
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -63px;
+    left: 0;
+}
+.tab-content>.active {
+    display: block;
+    margin-top: 70px;
+    margin-bottom: -70px;
+}
+#trabajos .container nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: .5s;
+    font-size: 13px;
+    margin-left: -48px;
+}
+
+video{
+    width: 435px;
+    height: 297px;
+    margin-left: 1px;
+    margin-top: -53px;
+    margin-bottom: -81px;
+
+} 
+footer .insta1 {
+    padding-top: 0;
+    padding-left: 190px;
+    transition: .5s;
+    width: 60px;
+}
+footer .insta2{
+    width: 60px;
+}
+
+footer .gmail{
+    padding-top: 0;
+    padding-left: 90px;
+    transition: .5s;
+    width: 60px;
+}
+
+footer .wap{
+    padding-top: 0;
+    padding-left: 90px;
+    transition: .5s;
+    width: 60px;
+}
+    footer h5 {
+        text-align: center;
+        font-size: 10px;
+    }
+    footer h6 {
+        margin-top: 1px;
+        padding-bottom: 18px;
+        font-size: 12px;
+    }
+}
+  /* CODIGO RESPONSIVE PHONE */
+  @media screen and (max-width:600px) and (min-width:320px){
+
+header {
+        width: 291%;
+        position: relative;
+        display: block;
+        background: url(../img/INICIO-BG.jpg) no-repeat;
+        background-size: 100%;
+    }
+    header .firma {
+        padding-top: 345px;
+        padding-left: 59px;
+        text-align: center;
+    }
+    header .container nav ul {
+        display: inline-flex;
+    }
+    #perfil {
+        width: 291%;
+        position: relative;
+        display: block;
+        padding-bottom: 53px;
+        padding-top: 0px;
+        color: #ffffff;
+        background: url(../img/SOY-BG.png) no-repeat;
+        background-size: 100%;
+    }
+    #perfil h3 {
+        font-size: 34px;
+        padding-top: 169px;
+        padding-left: 180px;
+        color: #040006;
+        transition: .5s;
+    }
+    #perfil img {
+        display: none;
+        
+    }
+    #perfil p {
+        font-size: 18px;
+        margin-top: -35px;
+        margin-left: -156px;
+        display: inline-block;
+    }
+    #destrezas {
+        width: 291%;
+    }  
+    img {
+        vertical-align: middle;
+        border-style: none;
+        width: 169px;
+    }
+    
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: unset;
+    margin-right: 84px;
+    margin-left: -6px;
+}
+#destrezas h3 {
+    font-size: 33px;
+    padding-top: 51px;
+    padding-left: 499px;
+    color: #ffffff;
+}
+#destrezas .logo1 {
+    padding-top: 50px;
+    padding-left: 188px;
+    transition: .5s;
+    width: 210px;
+}
+#destrezas .logo2 {
+    padding-top: 33px;
+    padding-left: 188px;
+    transition: .5s;
+    width: 210px;
+}
+#destrezas .logo3 {
+    padding-top: 33px;
+    padding-left: 188px;
+    transition: .5s;
+    width: 210px;
+}
+#destrezas .logo4 {
+    padding-top: 33px;
+    padding-left: 188px;
+    transition: .5s;
+    width: 210px;
+}
+#destrezas .logo5 {
+    padding-top: 33px;
+    padding-left: 188px;
+    transition: .5s;
+    width: 210px;
+}
+#destrezas .logo6 {
+    padding-top: 85px;
+    padding-left: 0px;
+    transition: .5s;
+    width: 210px;
+}
+#destrezas .logo7 {
+    padding-top: 33px;
+    padding-left: 0px;
+    transition: .5s;
+    width: 210px;
+}
+#destrezas .logo8 {
+    padding-top: 33px;
+    padding-left: 0px;
+    transition: .5s;
+    width: 210px;
+}
+#destrezas .logo9 {
+    padding-top: 33px;
+    padding-left: 0px;
+    transition: .5s;
+    width: 210px;
+}
+#experiencia {
+    width: 291%;
+    padding-bottom: 88px;
+}
+
+#experiencia h3 {
+    font-size: 33px;
+    padding-top: 51px;
+    padding-left: 499px;
+    
+}
+#experiencia h2 {
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 60px;
+}
+#experiencia p {
+    margin-top: 46px;
+    margin-left: -16px;
+    
+}
+
+#educacion {
+    width: 291%;
+    padding-bottom: 69px;
+}
+#educacion h3 {
+    font-size: 33px;
+    padding-top: 51px;
+    padding-left: 499px;
+    
+}
+#educacion p {
+    margin-top: 34px;
+    margin-left: -45px;
+}
+#educacion h4 {
+    text-align: center;
+    margin-top: 79px;
+}
+
+#educacion h2 {
+    text-align: center;
+    margin-top: 48px;
+}
+
+#educacion .acade br {
+    display: none;
+}
+
+#trabajos {
+    width: 291%;
+}
+
+#trabajos .container nav ul {
+    width: 100%;
+    display: contents;
+    text-align: right;
+    font-size: 17px;
+}
+#trabajos .container nav {
+    display: flex;
+    margin-top: -5px;
+    margin-left: 262px;
+} 
+#trabajos h3 {
+    font-size: 33px;
+    padding-top: 51px;
+    padding-left: 499px;
+    
+}
+
+}
